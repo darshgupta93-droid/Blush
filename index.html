@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blush Architecture Hardware</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+color:#333;
+}
+
+/* NAVBAR */
+
+header{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+nav{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px;
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+color:#0b3c66;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(#0b3c66,#001c3a);
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:60px 20px;
+text-align:center;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.product-card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+}
+
+.product-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.product-card h3{
+padding:15px;
+}
+
+/* ABOUT */
+
+.about{
+background:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.about p{
+max-width:700px;
+margin:auto;
+line-height:1.6;
+}
+
+/* CONTACT */
+
+.contact{
+background:#0b3c66;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+.whatsapp{
+display:inline-block;
+background:#25D366;
+padding:14px 30px;
+border-radius:8px;
+color:white;
+text-decoration:none;
+font-size:18px;
+margin-top:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#ccc;
+text-align:center;
+padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">Blush Hardware</div>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Blush Architecture Hardware</h1>
+
+<p>Premium Door Handles & Furniture Hardware Supplier</p>
+
+</section>
+
+<section class="products">
+
+<h2>Our Premium Handles</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="handle1.jpg">
+<h3>Luxury Door Handle</h3>
+</div>
+
+<div class="product-card">
+<img src="handle2.jpg">
+<h3>Modern Cabinet Handle</h3>
+</div>
+
+<div class="product-card">
+<img src="handle3.jpg">
+<h3>Designer Handle</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2>About Blush Architecture Hardware</h2>
+
+<p>
+Blush Architecture Hardware is a trusted supplier of premium architectural hardware including door handles, cabinet handles, hinges and fittings. We supply high-quality hardware solutions for retailers, contractors and interior designers.
+</p>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>Delhi, India</p>
+
+<a class="whatsapp" href="https://wa.me/917678106681">
+Contact on WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Blush Architecture Hardware</p>
+
+</footer>
+
+</body>
+</html>
